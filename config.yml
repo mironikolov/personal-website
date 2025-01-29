@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://mironikolov.com/"
 languageCode: en-us
 title: "MN"
 theme: hugo-theme-relearn
