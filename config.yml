@@ -5,4 +5,4 @@ theme: hugo-theme-relearn
 
 security:
   funcs:
-    getenv: ['HOMEAWS_API_GATEWAY_URL']
+    getenv: ['AWS_API_GATEWAY_URL']
