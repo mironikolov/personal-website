@@ -54,7 +54,8 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
+          TZ: Europe/Sofia
+          HOMEAWS_API_GATEWAY_URL: ${{ secrets.AWS_API_GATEWAY_URL }}
         run: |
           hugo \
             --gc \
